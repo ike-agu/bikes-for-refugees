@@ -114,6 +114,15 @@ p {
   border: 1px solid #d3caca;
 }
 
+.volunteer-btn{
+  background-color: #ffffff;
+  padding: 8px;
+  border-radius: 5px;
+  width: 150px;
+  color: #c55f06;
+  border: 1px solid #d3caca;
+}
+
 
 /* Content */
 
