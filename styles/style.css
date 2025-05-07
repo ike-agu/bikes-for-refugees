@@ -2,7 +2,7 @@
  *
  * Module: HTML/CSS
  * Lesson: 1
- * 
+ *
  */
 
  :root {
@@ -96,6 +96,23 @@ p {
 /* Buttons */
 
   /* INSERT BUTTON STYLES HERE */
+.donate-btn{
+  background-color: #c55f06;
+  padding: 8px;
+  border-radius: 5px;
+  width: 150px;
+  color: white;
+  border: 1px solid #d3caca;
+}
+
+.donate-btn-hero {
+  background-color: #c55f06;
+  padding: 8px;
+  border-radius: 5px;
+  width: 200px;
+  color: white;
+  border: 1px solid #d3caca;
+}
 
 
 /* Content */
