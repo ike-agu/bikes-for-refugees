@@ -214,6 +214,7 @@ p {
 
 .article {
   margin-bottom: 1rem;
+  border: 1px solid var(--grey-light);
 }
 
 .article__title {
