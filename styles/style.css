@@ -215,12 +215,21 @@ p {
 .article {
   margin-bottom: 1rem;
   border: 1px solid var(--grey-light);
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  align-items: center;
+
 }
 
 .article__title {
   margin-bottom: 0.5rem;
   font-size: 1rem;
   font-weight: 700;
+}
+
+.article__content{
+  margin: 10px;
 }
 
 .article__title-link {
@@ -236,6 +245,7 @@ p {
 .article__thumbnail {
   object-fit: contain;
   width: 5rem;
+  margin: 10px;
 }
 
 .article__read-more {
