@@ -166,7 +166,7 @@ p {
 .hero p {
   position: absolute;
   color: white;
-  bottom: 150px;
+  bottom: 250px;
   padding-left: 20px;
   font-size: 0.9rem;
 }
@@ -178,7 +178,7 @@ p {
 
 .btn-hero{
   position: absolute;
-  bottom: 25%;
+  bottom: 40%;
   margin: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -212,7 +212,7 @@ p {
 
 /* Article */
 
-.article {
+.article{
   margin-bottom: 1rem;
   border: 1px solid var(--grey-light);
   display: grid;
@@ -220,6 +220,19 @@ p {
   grid-gap: 10px;
   align-items: center;
 
+}
+
+.article-learn-more{
+  margin-bottom: 1rem;
+  border: 1px solid var(--grey-light);
+  padding: 20px;
+
+}
+
+.learn-more-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
 }
 
 .article__title {
