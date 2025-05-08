@@ -77,6 +77,13 @@ p {
   margin: 10px;
 }
 
+.navigation__link:hover{
+  background-color: var(--orange-dark);
+  color: var(--white);
+  padding: 5px;
+  border: 1px solid var(--grey-light);
+  border-radius: 5px;
+}
 
 /* Text styles */
 
