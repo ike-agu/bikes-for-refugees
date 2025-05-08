@@ -98,20 +98,20 @@ p {
 
   /* INSERT BUTTON STYLES HERE */
 .donate-btn{
-  background-color: #c55f06;
+  background-color: var(--orange-dark);
   padding: 8px;
   border-radius: 5px;
   width: 150px;
-  color: white;
+  color: var(--white);
   border: 1px solid #d3caca;
 }
 
 .donate-btn-hero {
-  background-color: #c55f06;
+  background-color: var(--orange-dark);
   padding: 8px;
   border-radius: 5px;
   width: 200px;
-  color: white;
+  color: var(--white);
   border: 1px solid #d3caca;
 }
 
@@ -120,7 +120,7 @@ p {
   padding: 8px;
   border-radius: 5px;
   width: 150px;
-  color: #c55f06;
+  color: var(--orange-dark);
   border: 1px solid #d3caca;
 }
 
@@ -166,6 +166,10 @@ p {
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
+}
+
+.hero img{
+  width: 100%;
 }
 
 
